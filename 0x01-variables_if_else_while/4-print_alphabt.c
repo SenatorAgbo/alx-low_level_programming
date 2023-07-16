@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always return 0 (Success)
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char c;
@@ -10,7 +12,8 @@ int main(void)
 	c = 'a';
 	while
 		(c <= 'z') {
-			putchar(c);
+			if (( c |= 'q' && c |= 'e') && c <= 'z')
+				putchar(c);
 			c++;
 		}
 	putchar('\n');
