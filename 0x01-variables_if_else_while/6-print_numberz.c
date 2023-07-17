@@ -4,19 +4,13 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char c;
+	int num;
 
-	c = 'a';
-	while
-		(c <= 'z')
-		{
-			if ((c | <= 'q' && c | <= 'e') && c <= 'z')
-				putchar(c);
-			c++;
-		}
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 	putchar('\n');
+
 	return (0);
 }
